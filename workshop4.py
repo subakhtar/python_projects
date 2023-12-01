@@ -76,31 +76,7 @@ class BankUser(User):
             return False
 
 
-""" Driver Code for Task 1 """
-# user1 = User("Bob", 1234, "password")
-# print(user1.name, user1.pin, user1.password)
-
-""" Driver Code for Task 2 """
-# user2 = User("Bob", 1234, "password")
-# print(user2.name, user2.pin, user2.password)
-# user2.change_name("Bobby")
-# user2.change_pin(4321)
-# user2.change_password("newpassword")
-# print(user2.name, user2.pin, user2.password)
-
-""" Driver Code for Task 3 """
-# user1 = BankUser("Bob", 1234, "password")
-# print(user1.name, user1.pin, user1.password, user1.balance)
-
-""" Driver Code for Task 4"""
-# user1 = BankUser("Bob", 1234, "password")
-# user1.show_balance()
-# user1.deposit(1000.0)
-# user1.show_balance()
-# user1.withdraw(500)
-# user1.show_balance()
-
-""" Driver Code for Task 5"""
+""" Driver Code """
 user1 = BankUser("Bob", 1234, "password")
 user2 = BankUser("Alice", 2222, "pwd")
 sent = False
